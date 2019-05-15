@@ -9,7 +9,7 @@ const wineController = {
             console.log(error) 
         }
     },
-    showbyType: async (req,res) => {
+    showByType: async (req,res) => {
         try {
             const wineType = req.params.type
             const wines = await Wine.find(wineType)
@@ -19,7 +19,7 @@ const wineController = {
             res.json(error)
         }
     },
-    showbyVarietal: async (req,res) => {
+    showByVarietal: async (req,res) => {
         try {
             const wineVarietal = req.params.varietal
             const wines = await Wine.find(wineVarietal)
@@ -29,7 +29,7 @@ const wineController = {
             res.json(error)
         }
     },
-    showbyProducer: async (req,res) => {
+    showByProducer: async (req,res) => {
         try {
             const wineProducer = req.params.producer
             const wines = await Wine.find(wineProducer)
