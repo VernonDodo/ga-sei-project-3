@@ -5,8 +5,10 @@ const app = express()
 app.use(logger('dev'))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static(`${__dirname}/client/build`));
 
 app.get('/', (req, res) => {
+  res.sendFile(`${__dirname}/client/build/index.html`)
   res.send("Hello World")
 })
 
