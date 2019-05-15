@@ -14,7 +14,7 @@ const User = new Schema({
     last_name: String,
     date_of_birth: Date(),
     address: address,
-    userID: _id
+    
 })
 
 module.exports('User', User)
