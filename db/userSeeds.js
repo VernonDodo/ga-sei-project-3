@@ -1,5 +1,3 @@
-import { getMaxListeners } from "cluster";
-
 [
     {first_name:"Jackie", last_name: "Chan", date_of_birth: 01/02/1956, email: "jackiechan@gmail.com"},
     {first_name:"James", last_name: "Brody", date_of_birth: 02/03/1957, email: "jamesbrody@gmail.com"},
