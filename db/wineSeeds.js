@@ -88,57 +88,58 @@
         description: "Within its crimson-tinged ruby glow, lies bold and aromatic aromas that speak to the Hidden Valley Pinotage’s seductively rich character. Expect a heady bouquet of plum, chocolate, vanilla and mint notes that work seamlessly to create interest. On the palate plush notes of mulberry and mocha reveal themselves alongside spiced aromas of dark chocolate and blackberry. Its bold flavour profile plays out surprisingly soft on the palate, lending the wine an appealing easy-drinking quality. Partner the Hidden Valley Pinotage with a smorgasbord of charcuterie and strong hard cheeses."
     },
     {
-        producer: String,
-        name: String,
-        vintage: Number,
-        variety: String,
-        type: String,
+        producer: "Warwick Wine Estate",
+        name: "Cabernet Franc",
+        vintage: 2015,
+        variety: "Cabernet Franc",
+        type: "Red Wine",
         price: 15.00,
-        description: String
+        description: "The bouquet is reminiscent of cherries and blackcurrants and has tones of dark chocolate and cigar box. The pallet is full bodied with firm but silky tannins. Decanting is recommended to express the true essence of this wine.﻿ Enjoy with lamb knuckles and rich pork terrine."
     },
     {
-        producer: String,
-        name: String,
-        vintage: Number,
-        variety: String,
-        type: String,
+        producer: "De Morgenzon",
+        name: "Reserve Chenin",
+        vintage: 2016,
+        variety: "Chenin Blanc",
+        type: "White Wine",
         price: 15.00,
-        description: String
+        description: "The highly celebrated Reserve Chenin from De Morgenzon has a n incredible collection of accolades year on year. Both the 2016 and 2015 vintages were awarded the Chenin blanc trophy winner at the International Wine Challenge in 2016 and 2015 respectively - a remarkable feat. A fragrant bouquet of white flowers, stone fruit, honey and toast are echoed on the palate; fresh pear and orange blossom contrasting richer flavours of honey and spice to give weight to the lean backbone of acidity."
     },
     {
-        producer: String,
-        name: String,
-        vintage: Number,
-        variety: String,
-        type: String,
+        producer: "Kleinood Wines ",
+        name: "Tamboerskloof Viognier ",
+        vintage: 2017,
+        variety: "Viognier",
+        type: "White Wine",
         price: 15.00,
-        description: String },
-    {
-        producer: String,
-        name: String,
-        vintage: Number,
-        variety: String,
-        type: String,
-        price: 15.00,
-        description: String
+        description: "The Kleinood Tamboerskloof Viognier greets the nose with an intoxicating array of citrus blossom, apricot and frangipani. The palate similarly shows floral notes, stone fruit, quince, apple and a soft, fleshy mouthfeel achieved by balancing natural acidity with a 30% barrel ferment." 
     },
     {
-        producer: String,
-        name: String,
-        vintage: Number,
-        variety: String,
-        type: String,
+        producer: "Saxenburg ",
+        name: "Private Collection Chardonnay",
+        vintage: 2016,
+        variety: "Chardonnay",
+        type: "White Wine",
         price: 15.00,
-        description: String
+        description: "The Saxenburg Private Collection Chardonnay is a beautifully expressive wine that shows an attractive, fruit-focused character. Carefully crafted from hand-picked Chardonnay berries, the wine shows typical varietal aromas of ripe tropical fruit. Its time spent maturing in a combination of first, second and third fill French oak barrels imparts the wine with a wonderful depth of flavour. Delicious hazelnut flavours adds richness to the concentrated fruit flavours of the palate. The Saxenburg Private Collection Chardonnay displays great integration of oak characters, which adds length and a pleasing weight to the palate."
     },
     {
-        producer: String,
-        name: String,
-        vintage: Number,
-        variety: String,
-        type: String,
+        producer: "Eagles Nest",
+        name: "Shiraz",
+        vintage: 2015,
+        variety: "Shiraz",
+        type: "White Wine",
         price: 15.00,
-        description: String
+        description: "This Shiraz from Eagles' Nest is worthy buying online now as it will continue to mature for 15 years from vintage. It also wins awards every year! In appearance the wine is a vibrant dark purple. Intense aromas of ripe berries and cherry greet the nose, along with crushed red pepper kernel. The tannins fill the mouth and pepper spice and toasted coconut dance on the palate. The taste profile is rounded out by warm baking spice and dark berries, creating a multilayered and complex wine."
+    },
+    {
+        producer: "Joostenberg",
+        name: "Chenin Blanc",
+        vintage: 2017,
+        variety: "Chenin Blanc",
+        type: "White Wine",
+        price: 15.00,
+        description: "This Chenin Blanc has replaced the Joostenberg family blend and this white wine is made for family and friends to enjoy. The Chenin Blanc is suitable for any occasion."
     },
     {
         producer: "De Wetshof Estate ",
