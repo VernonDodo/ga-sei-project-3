@@ -2,10 +2,12 @@ const mongoose = require('../db/connection.js')
 const Schema = mongoose.Schema
 
 const Wine = new Schema({
-    name: String,
-    varietal: String,
-    type: String,
     producer: String,
+    name: String,
+    vintage: Number,
+    variety: String,
+    type: String,
+    price: Number,
     description: String
 })
 

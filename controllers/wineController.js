@@ -19,10 +19,20 @@ const wineController = {
             res.json(error)
         }
     },
-    showByVarietal: async (req,res) => {
+    showByVariety: async (req,res) => {
         try {
-            const wineVarietal = req.params.varietal
-            const wines = await Wine.find(wineVarietal)
+            const wineVariety = req.params.variety
+            const wines = await Wine.find(wineVariety)
+            res.json
+        } catch(error) {
+            console.log(error)
+            res.json(error)
+        }
+    },
+    showByVintage: async (req,res) => {
+        try {
+            const wineVintage = req.params.vintage
+            const wines = await Wine.find(wineVintage)
             res.json
         } catch(error) {
             console.log(error)
