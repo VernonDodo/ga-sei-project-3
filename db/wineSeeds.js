@@ -1,6 +1,6 @@
 const Wine = require('../models/Wine')
 
-Wine.deleteMany.then(() => {
+Wine.deleteMany().then(() => {
     const tranquille = new Wine({
         producer: "Haute Cabrière",
         name: "Pierre Jourdan Tranquille ",
