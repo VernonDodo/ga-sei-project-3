@@ -11,4 +11,4 @@ const Wine = new Schema({
     description: String
 })
 
-module.exports('Wine', Wine)
+module.exports = mongoose.model('Wine', Wine)
