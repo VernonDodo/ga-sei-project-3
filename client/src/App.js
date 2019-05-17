@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 //import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Heading from './components/Heading'
+import Banner from './components/Banner'
 
 class App extends Component {
   render () {
     return (
       <div>
-        <h1>Welcome to Wine Online</h1>
+        <Heading/>
+        <Banner/>
       </div>
     )
   }
