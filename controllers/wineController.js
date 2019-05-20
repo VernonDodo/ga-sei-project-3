@@ -81,3 +81,5 @@ const wineController = {
     } 
 
 }
+
+module.exports = wineController;
