@@ -9,11 +9,21 @@ const wineController = {
             console.log(error) 
         }
     },
+    show: async (req,res) => {
+        try {
+            const wineID = req.params.id
+            const wine = await Wine.findById(wineID)
+            res.json(wine)
+        } catch(error) {
+            console.log(error)
+            res.json(error)
+        }
+    },
     showByType: async (req,res) => {
         try {
             const wineType = req.params.type
-            const wines = await Wine.find(wineType)
-            res.json
+            const wines = await Wine.find({type: wineType})
+            res.json(wines)
         } catch(error) {
             console.log(error)
             res.json(error)
@@ -33,7 +43,7 @@ const wineController = {
         try {
             const wineVintage = req.params.vintage
             const wines = await Wine.find(wineVintage)
-            res.json
+            res.json(wines)
         } catch(error) {
             console.log(error)
             res.json(error)
@@ -43,7 +53,7 @@ const wineController = {
         try {
             const wineProducer = req.params.producer
             const wines = await Wine.find(wineProducer)
-            res.json
+            res.json(wines)
         } catch(error) {
             console.log(error)
             res.json(error)

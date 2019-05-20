@@ -6,18 +6,21 @@ const wineController = require('../controllers/wineController')
 
 /* User Routes */
 router.get('/users', userController.index)
+router.post('/users', userController.create)
 router.get('/users/:id', userController.show)
-router.post('/', userController.create)
-router.put('/:id', userController.update)
-router.delete('/:id', userController.delete)
+router.put('/users/:id', userController.update)
+router.delete('/users:id', userController.delete)
 
 /* Wine Routes */
-router.get('/', wineController.index)
-router.get('/wine/type', wineController.showByType)
-router.get('/wine/variety', wineController.showByVariety)
-router.get('/wine/vintage', wineController.showByVintage)
-router.get('/wine/producer', wineController.showByProducer)
-router.post('/', wineController.addNew)
-router.put('/:id', wineController.update)
-router.delete('/:id', wineController.delete)
+router.get('/wines', wineController.index)
+router.post('/wines', wineController.addNew)
+router.get('/wines/:type', wineController.showByType)
+router.get('/wines/:variety', wineController.showByVariety)
+router.get('/wines/:vintage', wineController.showByVintage)
+router.get('/wines/:producer', wineController.showByProducer)
+router.get('/wines/:id', wineController.show)
+router.put('/wines/:id', wineController.update)
+router.delete('/wines/:id', wineController.delete)
+
+module.exports = router
 

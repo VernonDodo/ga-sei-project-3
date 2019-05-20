@@ -12,7 +12,7 @@ const userController = {
     show: async (req,res) => {
         try {
             const userID = req.params.id
-            const user = await User.findByID(userID)
+            const user = await User.findById(userID)
             res.json(user)
         } catch(error) {
             console.log(error)
