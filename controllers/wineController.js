@@ -73,6 +73,9 @@ const wineController = {
         try {
             const recordID = req.params.id
             const updatedWine = await Wine.findByIdAndUpdate(recordID)
+            updatedWine.vintage = req.params.vintage
+            updatedWine.price = req.params.price
+            updatedWine.description = req.params.description
             res.json(updatedWine)
         } catch(error) {
             console.log(error)
