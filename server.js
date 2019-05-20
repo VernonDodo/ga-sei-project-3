@@ -2,10 +2,12 @@ const express = require('express')
 const logger = require('morgan')
 const app = express()
 const routes = require('./routes/index')
+const bodyParser = require('body-parser')
 
 app.use(logger('dev'))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(bodyParser);
 app.use(express.static(`${__dirname}/client/build`));
 app.use('/api', routes);
 
