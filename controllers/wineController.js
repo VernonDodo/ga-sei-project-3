@@ -1,4 +1,4 @@
-const Wine = require('..models/Wine')
+const Wine = require('../models/Wine')
 
 const wineController = {
     index: async (req,res) => {
