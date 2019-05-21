@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
-class Warning extends Component{
+class Footer extends Component{
     render() {
-        const warningStyles = {
+        const footerStyles = {
             backgroundColor: "black",
             color: "white",
             display: "flex",
@@ -10,7 +10,7 @@ class Warning extends Component{
             alignItems: "center"
         }
         return(
-            <div style={warningStyles}>
+            <div style={footerStyles}>
                 <span>Not For Persons Under The Legal Drinking Age. Drink Responsibly.</span>
                 <p>By entering this site, you are agreeing to the terms and conditions of its use</p>
             </div>
@@ -20,4 +20,4 @@ class Warning extends Component{
     
 }
 
-export default Warning;
+export default Footer;

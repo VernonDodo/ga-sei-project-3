@@ -9,12 +9,12 @@ class LandingNav extends Component {
             color: "white"
         }
         return(
-            <Router>
-                <div style={landingNavStyle}>
+            
+            <div style={landingNavStyle}>
                 <span><a href="#">I am of legal drinking age. Let me in.</a></span>
                 
             </div>
-            </Router>
+            
             
         )
     }
