@@ -12,12 +12,13 @@ class Banner extends Component {
         fontFamily: "Permanent Marker, cursive",
         textShadow: "1px 2px 2px #000",
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
+        justifyContent: "center"
+        
+        
         }
         return(
             <div style={bannerStyles}>
-                <span>Bringing you the finest wines fom the Cape Winelands</span>
+                <span>Bringing you the finest wines from the greatest South African wine regions</span>
             </div>
         )
     }

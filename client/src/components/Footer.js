@@ -3,8 +3,10 @@ import React, {Component} from 'react';
 class Footer extends Component{
     render() {
         const footerStyles = {
-            backgroundColor: black,
-            color: white
+            backgroundColor: "black",
+            color: "white",
+            display: "flex",
+            alignItems: "center"
         }
         return(
             <div style={footerStyles}>

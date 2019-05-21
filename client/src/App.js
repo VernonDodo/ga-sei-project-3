@@ -4,6 +4,7 @@ import './App.css';
 import Heading from './components/Heading'
 import Banner from './components/Banner'
 import Footer from './components/Footer'
+import Navbar from './components/LandingNav'
 
 class App extends Component {
   render () {
@@ -12,6 +13,7 @@ class App extends Component {
         <Heading/>
         <Banner/>
         <Footer/>
+        <Navbar/>
       </div>
     )
   }
