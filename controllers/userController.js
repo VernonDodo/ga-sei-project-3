@@ -33,7 +33,7 @@ const userController = {
             const userID = req.params.id
             const updatedUser = req.body
             const savedUser = await User.findByIdAndUpdate(userID, updatedUser, {new: true})
-            res.json(saveduser)     
+            res.json(savedUser)     
         } catch(error) {
             console.log(error)
             res.status(500).json(error)
