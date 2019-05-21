@@ -9,21 +9,23 @@ import About from './About';
 class LandingNav extends Component {
     render () {
         const landingNavStyle = {
+            display: "flex",
+            justifyContent: "space-evenly",
             backgroundColor: "green",
-            color: "white"
+            color: "yellow"
         }
         return(
             <Router>
-                <div style={landingNavStyle}>
-                    <nav classname="navbar">
-                        <Link to="/">Home</Link>
-                        <Link to="/">Register</Link>
-                        <Link to="/">About</Link> 
+                <div>
+                    <nav classname="navbar" style={landingNavStyle}>
+                        <Link to="/home">Home</Link>
+                        <Link to="/register">Register</Link>
+                        <Link to="/about">About</Link> 
                     </nav>
                     <Switch>
-                        <Route exact path="/home" component={Home}>
-                        <Route exact path="/registration" component={Registration}>
-                        <Route exact path="/about" component={About}>
+                        <Route exact path="/home" component={Home}/>
+                        <Route exact path="/registration" component={Registration}/>
+                        <Route exact path="/about" component={About}/>
                     </Switch>
                 </div>
                 

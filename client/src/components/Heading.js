@@ -6,7 +6,7 @@ class Heading extends Component {
             fontFamily: "Arial",
             color: "green",
             justifyContent: "center",
-            alignItems: "center"
+            textAlign: "center"
         }
     return(
         <div style={headingStyles}>
