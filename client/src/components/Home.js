@@ -4,7 +4,7 @@ import styled from 'styled-components';
 class Home extends Component {
     render() {
         return(
-            <div>Something in here</div>
+            <div>Home Page</div>
         )
     }
 }

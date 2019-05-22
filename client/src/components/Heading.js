@@ -3,6 +3,7 @@ import React, {Component} from 'react'
 class Heading extends Component {
     render() {
         const headingStyles = {
+            padding: "0",
             fontFamily: "Arial",
             color: "green",
             justifyContent: "center",

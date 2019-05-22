@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
+import Heading from './Heading'
 
 class Banner extends Component {
     render() {
         const bannerStyles = {
-        backgroundImage: "url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cometocapetown.com%2Fwp-content%2Fuploads%2F2017%2F01%2FThe-Cape-Winelands-400x260.jpg&f=1')",
+        display: "flex",
+        flexDirection: "column",
+        backgroundImage: "url('https://images.pexels.com/photos/51947/tuscany-grape-field-nature-51947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        height: "75vh",
+        height: "80vh",
         fontSize: "2rem",
         color: "white",
         fontFamily: "Permanent Marker, cursive",
@@ -18,7 +21,10 @@ class Banner extends Component {
         }
         return(
             <div style={bannerStyles}>
-                <span>Bringing you the finest wines from the greatest South African wine regions</span>
+                <Heading/>
+                <div>
+                    <span>Bringing you the finest wines from the greatest South African wine regions</span>
+                </div>
             </div>
         )
     }

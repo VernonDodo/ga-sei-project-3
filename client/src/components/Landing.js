@@ -8,7 +8,6 @@ class Landing extends Component {
     render () {
       return (
         <div>
-          <Heading/>
           <Banner/>
           <Footer/>
           <Navbar/>
