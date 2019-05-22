@@ -16,4 +16,4 @@ class Heading extends Component {
     }
 }
 
-export default Heading;
+export default Heading
