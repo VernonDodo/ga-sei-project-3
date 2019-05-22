@@ -5,7 +5,18 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 class AdminNavbar extends Component {
     render() {
         return(
-            <div>Admin Nav Bar</div>
+            <Router>
+                <div>
+                    <nav className="admin-nav">
+                        <Link to="/catalog/admin">Catalog Administration</Link>
+                        <Link to="/user/admin">User Administration</Link>
+                    </nav>
+                    <Switch>
+                        <Route exact path = "/catalog/admin" component={CatalogAdmin}/>
+                        <Route exact path = "/user/admin" component={UserAdmin}/>
+                    </Switch>
+                </div>
+            </Router>
         )
     }
 }

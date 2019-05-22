@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Heading from './Heading';
 import Banner from './Banner';
 import Footer from './Footer';
 import Navbar from './LandingNav';

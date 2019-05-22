@@ -14,7 +14,6 @@ class Banner extends Component {
         color: "white",
         fontFamily: "Permanent Marker, cursive",
         textShadow: "1px 2px 2px #000",
-        display: "flex",
         justifyContent: "center"
         
         
