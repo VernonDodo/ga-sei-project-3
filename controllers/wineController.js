@@ -62,6 +62,14 @@ const wineController = {
     addNew: async (req,res) => {
         try {
             const addWine = req.body
+            addWine.producer = req.body.producer,
+            addWine.name = req.body.name,
+            addWine.vintage = req.body.vintage,
+            addWine.variety = req.body.variety,
+            addWine.type = req.body.type,
+            addWine.price = req.body.price,
+            addWine.description = req.body.description
+
             const newWine = await Wine.create(addWine)
             res.json(newWine)
         } catch(error) {

@@ -28,7 +28,6 @@ class LandingNav extends Component {
                         <Route exact path="/about" component={About}/>
                     </Switch>
                 </div>
-                
             </Router>
             
             
